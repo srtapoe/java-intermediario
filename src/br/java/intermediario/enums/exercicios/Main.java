@@ -1,5 +1,7 @@
 package br.java.intermediario.enums.exercicios;
 
+import br.java.intermediario.enums.enums.CalculadoraEnum;
+
 import java.util.Scanner;
 
 public class Main {
@@ -14,8 +16,8 @@ public class Main {
 
         CalculadoraEnum[] operacoes = CalculadoraEnum.values();
 
-        for(int i=0; i<operacoes.length; i++){
-            System.out.println(operacoes[i].execeutarOperacao(numeroUm, numeroDois));
+        for (CalculadoraEnum operacoe : operacoes) {
+            System.out.println(operacoe.execeutarOperacao(numeroUm, numeroDois));
         }
     }
 }

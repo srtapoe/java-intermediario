@@ -1,4 +1,4 @@
-package br.java.intermediario.enums.exercicios;
+package br.java.intermediario.enums.enums;
 
 public enum CalculadoraEnum {
 
@@ -17,7 +17,7 @@ public enum CalculadoraEnum {
                 '}';
     }
 
-   double execeutarOperacao(double numeroUm, double numeroDois){
+   public double execeutarOperacao(double numeroUm, double numeroDois){
             double resultado = 0;
        switch (simbolo) {
            case "+" -> {

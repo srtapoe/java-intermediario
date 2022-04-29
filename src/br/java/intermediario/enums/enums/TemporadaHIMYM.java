@@ -1,4 +1,4 @@
-package br.java.intermediario.enums;
+package br.java.intermediario.enums.enums;
 
 public enum TemporadaHIMYM {
 
